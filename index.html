@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toro Chingón · Cecina premium</title>
+<meta name="description" content="Toro Chingón: cecina de res 100% selecta en bolsa de 40 g. Pide por WhatsApp, por pieza, mayoreo o granel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Cinzel:wght@500;700&family=Lato:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<meta name="robots" content="noindex">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="nav__logo" href="#inicio" aria-label="Toro Chingón, inicio"><img src="img/logo.png" alt="Toro Chingón" width="70" height="75"></a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#inicio" class="is-active">Inicio</a>
+    <a href="#producto">Producto</a>
+    <a href="#sabores">Sabores</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="nav__cart" type="button" data-open-cart aria-label="Ver tu pedido">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 10.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 7H6.2" /><circle cx="9.5" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></svg>
+    <span class="nav__badge" data-cart-count>0</span>
+  </button>
+  <button class="nav__burger" type="button" aria-label="Abrir menú" aria-expanded="false" data-burger><span></span><span></span><span></span></button>
+</header>
+
+<main>
+  <!-- 1. HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__img" role="img" aria-label="Bolsa de cecina Toro Chingón sobre un barril, con láminas de cecina saliendo de la bolsa, en un rancho al atardecer"></div>
+    <div class="hero__pueblo" aria-hidden="true"></div>
+    <div class="brasas" aria-hidden="true" data-brasas></div>
+    <div class="hero__copy">
+      <p class="kicker"><span class="star">★</span> Hecho para quien tiene carácter <span class="star">★</span></p>
+      <h1 class="brand"><span class="brand__toro">Toro</span><span class="brand__chingon">Chingón</span></h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="hero__sub">Carne seca selecta</p>
+      <p class="hero__lema">Un sabor <em>chingón</em></p>
+      <a class="btn" href="#producto">Conoce nuestra cecina <span aria-hidden="true">›</span></a>
+    </div>
+    <div class="escena">
+      <div class="escena__3d">
+        <div class="orbita" aria-hidden="true">
+          <span style="--a:0deg;--y:-8%"><img src="img/piezas/sombrero.webp" alt="" width="560" height="402"></span>
+          <span style="--a:90deg;--y:14%"><img src="img/piezas/farol.webp" alt="" width="421" height="761" style="width:62%"></span>
+          <span style="--a:180deg;--y:-16%"><img src="img/piezas/revolver.webp" alt="" width="560" height="347"></span>
+          <span style="--a:270deg;--y:10%"><img src="img/piezas/herradura.webp" alt="" width="551" height="596" style="width:66%"></span>
+        </div>
+        <svg width="0" height="0" aria-hidden="true" style="position:absolute"><filter id="papel"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="4" seed="7"/><feColorMatrix values="0 0 0 0 .32  0 0 0 0 .2  0 0 0 0 .08  0 0 0 .55 -.12"/></filter></svg>
+        <div class="tablon" aria-hidden="true"></div>
+        <div class="cartel">
+          <div class="cartel__hoja" aria-hidden="true"><div class="cartel__papel"></div></div>
+          <span class="cartel__clavo" aria-hidden="true"></span>
+          <p class="cartel__wanted">Wanted</p>
+          <p class="cartel__titulo">Se busca</p>
+          <p class="cartel__sub">La más buscada</p>
+          <div class="cartel__foto"><img class="bolsa" src="img/bolsa.webp" alt="Bolsa cerrada de cecina Toro Chingón de 40 g" width="823" height="1234"></div>
+          <p class="cartel__recompensa">Se ofrece recompensa</p>
+          <p class="cartel__premio">El mejor sabor de todos</p>
+          <p class="cartel__pie">Toro Chingón · Carne seca selecta · 40 g</p>
+        </div>
+        <div class="cecinas" aria-hidden="true">
+          <img src="img/piezas/lamina-a.webp" alt="" style="--dx:-98%;--dy:-38%;--g:-36deg">
+          <img src="img/piezas/lamina-a.webp" alt="" style="--dx:86%;--dy:-66%;--g:30deg;--s:.85;--f:-1">
+          <img class="lam-b" src="img/piezas/lamina-b.webp" alt="" style="--dx:-40%;--dy:-88%;--g:-12deg;--s:1.1">
+          <img src="img/piezas/lamina-a.webp" alt="" style="--dx:18%;--dy:-104%;--g:96deg;--s:.58">
+          <img class="lam-b" src="img/piezas/lamina-b.webp" alt="" style="--dx:128%;--dy:14%;--g:42deg;--s:.9;--f:-1">
+        </div>
+        <div class="destello" aria-hidden="true"></div>
+      </div>
+      <button class="btn btn--abrir" type="button" data-abrir>Abrir la bolsa</button>
+    </div>
+    <button class="repetir" type="button" data-cerrar>Ver de nuevo</button>
+  </section>
+
+  <!-- 2. PRODUCTO -->
+  <section class="panel producto" id="producto">
+    <div class="producto__img" data-rv="left"><div class="tilt" data-tilt>
+      <div class="vitrina" role="img" aria-label="Bolsa de cecina Toro Chingón de 40 g junto a un sombrero vaquero y un farol encendido">
+        <span class="vitrina__luz"></span>
+        <img class="v-farol" src="img/piezas/farol.webp" alt="" loading="lazy" width="421" height="761">
+        <img class="v-sombrero" src="img/piezas/sombrero.webp" alt="" loading="lazy" width="560" height="402">
+        <img class="v-bolsa" src="img/bolsa.webp" alt="" loading="lazy" width="823" height="1234">
+      </div>
+      <div class="badge40" aria-hidden="true"><small>Presentación</small><strong>40 g</strong></div>
+    </div></div>
+    <div class="producto__copy" data-rv="right">
+      <h2 class="title">Carne seca <em>selecta.</em></h2>
+      <p class="lead">Cecina de res 100% selecta, en bolsa de 40 g y en dos sabores: natural y botana.</p>
+      <table class="precios">
+        <caption>Precio por bolsa</caption>
+        <tbody>
+          <tr data-tier="1"><th>1 a 4 bolsas</th><td>$70</td></tr>
+          <tr data-tier="5"><th>5 o más</th><td>$65</td></tr>
+          <tr data-tier="20"><th>20 o más</th><td>$60</td></tr>
+          <tr data-tier="50"><th>50 o más</th><td>$50</td></tr>
+          <tr><th>Granel</th><td><a href="#granel">A negociar</a></td></tr>
+        </tbody>
+      </table>
+      <fieldset class="sabor">
+        <legend>Sabor</legend>
+        <label><input type="radio" name="sabor" value="natural" checked><span>Natural (con sal)</span></label>
+        <label><input type="radio" name="sabor" value="botana"><span>Botana</span></label>
+      </fieldset>
+      <div class="buy">
+        <div class="qty" role="group" aria-label="Cantidad de bolsas">
+          <button type="button" data-step="-1" aria-label="Quitar una bolsa">−</button>
+          <input type="number" min="1" max="999" value="1" inputmode="numeric" aria-label="Bolsas" data-qty>
+          <button type="button" data-step="1" aria-label="Agregar una bolsa">+</button>
+        </div>
+        <p class="buy__total"><span data-unit>$70 c/u</span><strong data-total>$70</strong></p>
+      </div>
+      <button class="btn btn--wide" type="button" data-add>Agregar al pedido <span aria-hidden="true">›</span></button>
+      <p class="fine">El precio baja solo según el total de bolsas; puedes combinar sabores. ¿Quieres más? Vendemos <a href="#granel">a granel</a>.</p>
+    </div>
+  </section>
+
+  <!-- SABORES -->
+  <section class="sabores" id="sabores">
+    <h2 class="title" data-rv>Dos sabores. <em>Tú eliges.</em></h2>
+    <div class="bandas">
+      <article class="banda banda--botana" data-tilt data-px data-rv="left">
+        <div class="banda__fondo" aria-hidden="true"></div>
+        <div class="banda__foto"><img src="img/sabor-botana.jpg" alt="Bolsa de cecina Toro Chingón sabor botana, rodeada de chiles y salsa" loading="lazy" width="800" height="941"></div>
+        <div class="banda__txt"><h3>Botana</h3><p>Sazonada para botanear.</p>
+          <button class="btn" type="button" data-pick="botana">Pedir botana <span aria-hidden="true">›</span></button></div>
+      </article>
+      <article class="banda banda--natural" data-tilt data-px data-rv="right">
+        <div class="banda__fondo" aria-hidden="true"></div>
+        <div class="banda__foto"><img src="img/sabor-natural.jpg" alt="Bolsa de cecina Toro Chingón sabor natural con sal, rodeada de sal de grano" loading="lazy" width="800" height="941"></div>
+        <div class="banda__txt"><h3>Natural</h3><p>Con sal. El sabor de la carne seca, tal cual.</p>
+          <button class="btn" type="button" data-pick="natural">Pedir natural <span aria-hidden="true">›</span></button></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GRANEL -->
+  <section class="cine granel" id="granel" data-px>
+    <div class="cine__copy" data-rv>
+      <h2 class="title title--left">A granel. <em>Se negocia.</em></h2>
+      <p>¿Tienes un negocio, un evento o quieres revender? También vendemos cecina a granel, y el precio se arregla según la cantidad.</p>
+      <a class="btn" href="#" data-wa="Hola, quiero cotizar cecina Toro Chingón a granel.">Cotizar a granel <span aria-hidden="true">›</span></a>
+    </div>
+  </section>
+
+  <!-- 3. CALIDAD -->
+  <section class="panel calidad" id="calidad">
+    <div class="calidad__copy" data-rv="left">
+      <h2 class="title title--left">El carácter está en <em>la textura.</em></h2>
+      <p>Cecina 100% de res, con un corte fino, sabor intenso y textura tradicional.</p>
+      <ul class="badges badges--sm">
+        <li><svg viewBox="0 0 48 32" aria-hidden="true"><path d="M6 14c0-4 4-7 9-7h17c4 0 6-3 9-3l1 3-3 2v5c0 2-1 3-3 3v10h-3l-1-8H17l-2 8h-3v-9c-3-1-6-2-6-4z"/></svg>100%<br>de res</li>
+        <li><svg viewBox="0 0 48 32" aria-hidden="true"><path d="M14 28c0-12 8-20 22-24-2 14-10 22-22 24zm0 0 14-14" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>Sin<br>conservadores</li>
+        <li><svg viewBox="0 0 48 32" aria-hidden="true"><path d="M19 3h10M21 3v9l-9 15a2 2 0 0 0 2 3h20a2 2 0 0 0 2-3l-9-15V3" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>Sin<br>aditivos</li>
+      </ul>
+    </div>
+    <div class="calidad__img" data-px role="img" aria-label="Acercamiento a una lámina de cecina con su marmoleo natural"></div>
+  </section>
+
+  <!-- 4. PROCESO -->
+  <section class="seq" id="proceso" data-seq>
+    <div class="seq__stage">
+      <header class="seq__head"><h2 class="title">El oficio <em>se respeta.</em></h2><p>De la res al empaque, con un solo objetivo: la mejor cecina.</p></header>
+      <ol class="seq__scenes">
+        <li class="scene" style="--img:url(img/t-seleccion.jpg)" role="img" aria-label="Corte de res marmoleado sobre un tablón de madera, a la luz de un farol">
+          <div class="scene__cap"><span class="scene__n">1</span><h3>Selección de la carne</h3><p>Todo empieza con el corte.</p></div>
+        </li>
+        <li class="scene" style="--img:url(img/t-sazonado.jpg)" role="img" aria-label="Mano de ranchero espolvoreando sal de grano sobre láminas de res">
+          <div class="scene__cap"><span class="scene__n">2</span><h3>Sazonado natural</h3><p>Sal, mano y paciencia.</p></div>
+        </li>
+        <li class="scene" style="--img:url(img/t-secado.jpg)" role="img" aria-label="Láminas de carne colgadas secándose en un tendedero de madera al atardecer">
+          <div class="scene__cap"><span class="scene__n">3</span><h3>Secado controlado</h3><p>El tiempo hace su parte.</p></div>
+        </li>
+        <li class="scene" style="--img:url(img/t-corte.jpg)" role="img" aria-label="Cuchillo cortando una lámina de cecina sobre una tabla de madera">
+          <div class="scene__cap"><span class="scene__n">4</span><h3>Corte selecto</h3><p>Láminas finas, con la fibra a la vista.</p></div>
+        </li>
+        <li class="scene scene--pack">
+          <img src="img/bolsa.webp" alt="Bolsa de cecina Toro Chingón de 40 g" loading="lazy" width="823" height="1234">
+          <div class="scene__cap"><span class="scene__n">5</span><h3>Empaque 40 g</h3><p>Lista para llevar.</p></div>
+        </li>
+      </ol>
+      <div class="seq__bar" aria-hidden="true"><i></i></div>
+    </div>
+  </section>
+
+  <!-- FRANJA TORO -->
+  <section class="toro" data-px data-tilt data-vivo aria-label="Toro embistiendo en un corral al atardecer">
+    <div class="vivo__img toro__img" aria-hidden="true"></div>
+    <div class="rayas" aria-hidden="true"></div>
+    <div class="polvo" aria-hidden="true" data-polvo="26"></div>
+    <p class="toro__label"><small>El símbolo</small>Fuerza que se siente.</p>
+  </section>
+
+  <!-- 5. NOSOTROS -->
+  <section class="cine nosotros" id="nosotros" data-px data-tilt data-vivo>
+    <div class="vivo__img rancho__img" aria-hidden="true"></div>
+    <div class="nube nube--1" aria-hidden="true"></div><div class="nube nube--2" aria-hidden="true"></div>
+    <div class="polvo" aria-hidden="true" data-polvo="18"></div>
+    <div class="cine__copy" data-rv>
+      <h2 class="title title--left">Bienvenido al <em>rancho.</em></h2>
+      <p>Somos una marca mexicana dedicada a llevar la tradición de la carne seca a otro nivel.</p>
+      <p>Toro Chingón nace del respeto por el campo, la calidad de la carne y el orgullo de nuestras raíces.</p>
+    </div>
+  </section>
+
+  <!-- 6. CONTACTO -->
+  <section class="panel contacto" id="contacto">
+    <div class="contacto__copy" data-rv="left">
+      <h2 class="title title--left">Contacto <em>rápido como bala.</em></h2>
+      <p>¿Tienes dudas, quieres hacer un pedido especial o ser distribuidor?</p>
+      <ul class="channels">
+        <li><a href="#" data-wa="Hola, tengo una duda sobre la cecina Toro Chingón.">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 8.5c0 3 3 6 6 6l1-1.3-1.8-1-1 .8a5 5 0 0 1-2.6-2.6l.8-1-1-1.8z"/></svg>
+          <strong>WhatsApp</strong><small>Escríbenos al instante</small></a></li>
+        <li><a href="#" data-wa="Hola, me interesa ser distribuidor de Toro Chingón.">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4l3 3.5V16h-7z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="6" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+          <strong>Distribuidores</strong><small>Únete a nuestra red</small></a></li>
+      </ul>
+    </div>
+    <div class="bodegon" data-tilt data-px role="img" aria-label="Revólver antiguo, sombrero vaquero, farol encendido y herradura">
+      <span class="bodegon__luz"></span>
+      <img class="b-farol" src="img/piezas/farol.webp" alt="" loading="lazy" width="421" height="761">
+      <img class="b-sombrero" src="img/piezas/sombrero.webp" alt="" loading="lazy" width="560" height="402">
+      <img class="b-herradura" src="img/piezas/herradura.webp" alt="" loading="lazy" width="551" height="596">
+      <div class="b-revolver" data-arma><div class="arma">
+        <img src="img/piezas/revolver.webp" alt="" loading="lazy" width="560" height="347">
+      </div><span class="fogonazo"></span><span class="humo"></span><span class="bala"></span></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <img src="img/logo.png" alt="" width="56" height="60">
+  <p>© <span data-year></span> Toro Chingón · Cecina premium hecha en México</p>
+</footer>
+
+<!-- Pedido -->
+<div class="cart" data-cart hidden>
+  <div class="cart__backdrop" data-close-cart></div>
+  <aside class="cart__panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <header><h2 id="cart-title">Tu pedido</h2><button type="button" data-close-cart aria-label="Cerrar">×</button></header>
+    <div data-cart-body></div>
+    <p class="fine">Confirmamos existencia, entrega y forma de pago por WhatsApp.</p>
+    <a class="btn btn--wide" href="#" data-checkout>Pedir por WhatsApp <span aria-hidden="true">›</span></a>
+  </aside>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
