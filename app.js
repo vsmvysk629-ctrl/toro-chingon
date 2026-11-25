@@ -1,5 +1,5 @@
-// PENDIENTE: número de WhatsApp para pedidos, con lada de país y sin signos (ej. "5213781234567").
-const WA_NUMBER = '';
+// Número de WhatsApp de ventas, con lada de país y sin signos.
+const WA_NUMBER = '523781024593';   // 378 102 4593 (52 = México)
 
 // Precio por bolsa según cantidad (de mayor a menor).
 const TIERS = [[50, 50], [20, 60], [5, 65], [1, 70]];
